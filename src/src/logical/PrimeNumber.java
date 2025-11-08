@@ -8,7 +8,7 @@ public class PrimeNumber {
         System.out.println("Enter the number to check Prime or Not");
         int num=sc.nextInt();
 
-        for(int i=2;i<num;i++){
+        for(int i=2;i<Math.sqrt(num);i++){
             if(num%i==0){
                 System.out.println("The number "+num+" s not prime");
                 break;
